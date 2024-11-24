@@ -24,3 +24,10 @@ Data siswa disimpan dalam daftar bernama data_list, yang berisi elemen kamus. Se
     'Nilai Akhir': 81.5  # Hasil perhitungan nilai akhir
 }
 ```
+# 2.FUNGSI-FUNGSI UTAMA 
+# oi_final_grade(tugas, uts, uas)
+Fungsi ini menghitung nilai akhir siswa berdasarkan bobot masing-masing:
+
+*Tugas: 30%
+*UTS: 35%
+*UAS: 35%.
