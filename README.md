@@ -137,6 +137,13 @@ while True:
 
 ![image](https://github.com/user-attachments/assets/542d9973-fc2c-4190-9ce6-6d80cf174014)
 
+# Contoh output
+Berikut adalah contoh tampilan tabel data:
+# DAFTAR NILAI
+# Daftar Nilai
+# | NO | NIM | NAMA | TUGAS | UTS | UAS | AKHIR |
+
+
 
 
 
