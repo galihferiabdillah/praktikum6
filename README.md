@@ -11,4 +11,16 @@
 -Tugas: 30%
 -UTS: 35%
 -UAS: 35%.
-
+# KOMPONEN PROGRAM 
+# 1.STRUKTUR DATA 
+Data siswa disimpan dalam daftar bernama data_list, yang berisi elemen kamus. Setiap kamus mewakili satu pelajar dengan format berikut:
+```PYTHON
+{
+    'Nama': 'Nama Mahasiswa',
+    'NIM': 'NIM Mahasiswa',
+    'Tugas': 80.0,  # Nilai Tugas
+    'UTS': 75.0,    # Nilai UTS
+    'UAS': 85.0,    # Nilai UAS
+    'Nilai Akhir': 81.5  # Hasil perhitungan nilai akhir
+}
+```
