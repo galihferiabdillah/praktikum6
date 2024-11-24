@@ -28,6 +28,30 @@ Data siswa disimpan dalam daftar bernama data_list, yang berisi elemen kamus. Se
 # oi_final_grade(tugas, uts, uas)
 Fungsi ini menghitung nilai akhir siswa berdasarkan bobot masing-masing:
 
-*Tugas: 30%
-*UTS: 35%
-*UAS: 35%.
+Tugas: 30%
+UTS: 35%
+UAS: 35%.
+```PYTHON
+def oi_final_grade(tugas, uts, uas):
+    return (tugas * 0.30) + (uts * 0.35) + (uas * 0.35)
+```
+# lihat_data()
+Fungsi ini menampilkan seluruh data siswa dalam format tabel. Jika data kosong, ditampilkan pesan "Tidak ada data!".
+ ```PYTHON
+def lihat_data():
+    if not data_list:
+        print("\nTidak ada data!")
+    else:
+        print("\nDaftar Nilai")
+        print("=" * 70)
+        print("| NO | NIM      | NAMA       | TUGAS   | UTS     | UAS     | AKHIR   |")
+        print("=" * 70)
+        for idx, student in enumerate(data_list, start=1):
+            print(f"| {idx:<2} | {student['NIM']:<8} | {student['Nama']:<10} | "
+                  f"{student['Tugas']:<8.2f} | {student['UTS']:<8.2f} | {student['UAS']:<8.2f} | "
+                  f"{student['Nilai Akhir']:<8.2f} |")
+        print("=" * 70)
+```
+
+
+
