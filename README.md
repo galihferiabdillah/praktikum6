@@ -142,6 +142,13 @@ Berikut adalah contoh tampilan tabel data:
 # DAFTAR NILAI
 # Daftar Nilai
 # | NO | NIM | NAMA | TUGAS | UTS | UAS | AKHIR |
+# berikut ini adalah hasil data yang telah di tapilkan di tabel di atas 
+![4344](https://github.com/user-attachments/assets/3d12dd78-ea0f-455b-b8b0-0342c153b89c)
+
+# dan ini adalah flowchartnya sebagai berikut :
+![image](https://github.com/user-attachments/assets/823cf677-e682-4b8b-8d0f-3efdf05c20c4)
+
+
 
 
 
